@@ -44,10 +44,8 @@ const Login = () => {
         <h2 className="text-2xl font-bold text-center mb-6">Welcome Back</h2>
         <p className="text-center text-gray-600 mb-8">Please log in to continue</p>
 
-        {/* Error Message */}
         {error && <p className="text-red-500 text-center mb-4">{error}</p>}
 
-        {/* Email and Password Login Form */}
         <form onSubmit={handleEmailPasswordLogin}>
           <div className="mb-4">
             <label htmlFor="email" className="block text-gray-700">Email</label>
